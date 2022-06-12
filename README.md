@@ -3,9 +3,11 @@
 
 - Connections:
 	
-  VCC    			           -> 	Powered by USB 
-	LED Output(3V3 Logic)  -> 	GPIO 12,GPIO 14
-  LED Output(PWM)   	   ->   GPIO 15 
+  VCC    		 -> 	Powered by USB 
+  
+  LED Output(3V3 Logic)  -> 	GPIO 12,GPIO 14
+  
+  LED Output(PWM)   	 ->     GPIO 15 
 
 - This example uses fauxmoESP library to connect ESP32 WROVER module with Amazon's Echo Dot gen3. The library creates a TCP server in port 80 and exchanges UDP packages with Echo Dot. 
 
